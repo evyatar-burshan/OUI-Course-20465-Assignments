@@ -1,0 +1,83 @@
+This is a pocket calculator that works on 6 matrices: MAT_A, MAT_B, MAT_C, MAT_D, MAT_E, MAT_F.
+Please enter one of the following commands. Commands are to be spelled in small letters, matrices names in capital letters  and arguments are seperated by commass. Ex: trans_mat MAT_A, MAT_B.
+Commands:
+	1. read_mat MAT, up to 16 arguments(numbers)
+	2. print_mat MAT
+	3. add_mat MAT1, MAT2, MAT DESTINATION
+	4. sub_mat MAT1, MAT2, MAT DESTINATION
+	5. mul_mat MAT1, MAT2, MAT DESTINATION
+	6. mul_scalar MAT1, scale(number), MAT DESTINATION
+	7. trans_mat MAT, MAT DESTINATION
+	8. stop
+
+
+> The program is ready to take input:
+> read_mat MAT_A 1.234, 0.567, 2.345, 0.678, 1.901, 0.123, 3.456, 0.789, 2.123, 0.456, 1.987, 0.234, 2.789, 0.345, 1.567, 0.901:
+
+> The program is ready to take input:
+> read_mat MAT_B 365.233, 2333.129, 56.37, 1.39, 0.864, 4.1279, 56.838:
+
+> The program is ready to take input:
+> print_mat MAT_A:
+   1.23   0.57   2.35   0.68
+   1.90   0.12   3.46   0.79
+   2.12   0.46   1.99   0.23
+   2.79   0.34   1.57   0.90
+
+> The program is ready to take input:
+> print_mat MAT_B:
+ 365.232333.13  56.37   1.39
+   0.86   4.13  56.84   0.00
+   0.00   0.00   0.00   0.00
+   0.00   0.00   0.00   0.00
+
+> The program is ready to take input:
+> sub_mat MAT_B, MAT_A, MAT_C:
+
+> The program is ready to take input:
+> print_mat MAT_C:
+ 364.002332.56  54.02   0.71
+  -1.04   4.00  53.38  -0.79
+  -2.12  -0.46  -1.99  -0.23
+  -2.79  -0.34  -1.57  -0.90
+
+> The program is ready to take input:
+> add_mat MAT_A, MAT_B, MAT_D:
+
+> The program is ready to take input:
+> print MAT_D:
+
+Missing Argument
+
+> The program is ready to take input:
+> mul_mat MAT_C, MAT_D, MAT_E:
+
+> The program is ready to take input:
+> print_mat MAT_E:
+139959.83999363.121161483.251164089.62
+1163831.881161453.001161738.501161751.25
+1160967.121156009.751155853.251155847.75
+1154818.751148307.621148118.621148111.50
+
+> The program is ready to take input:
+> mul_scalar MAT_E, 2, MAT_E:
+
+> The program is ready to take input:
+> print_mat MAT_E:
+279919.661998726.252322966.502328179.25
+2327663.752322906.002323477.002323502.50
+2321934.252312019.502311706.502311695.50
+2309637.502296615.252296237.252296223.00
+
+> The program is ready to take input:
+> trans_mat MAT_E, MAT_F:
+
+> The program is ready to take input:
+> print_mat MAT_F:
+279919.662327663.752321934.252309637.50
+1998726.252322906.002312019.502296615.25
+2322966.502323477.002311706.502296237.25
+2328179.252323502.502311695.502296223.00
+
+> The program is ready to take input:
+> stop:

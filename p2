@@ -1,0 +1,106 @@
+This is a pocket calculator that works on 6 matrices: MAT_A, MAT_B, MAT_C, MAT_D, MAT_E, MAT_F.
+Please enter one of the following commands. Commands are to be spelled in small letters, matrices names in capital letters  and arguments are seperated by commass. Ex: trans_mat MAT_A, MAT_B.
+Commands:
+	1. read_mat MAT, up to 16 arguments(numbers)
+	2. print_mat MAT
+	3. add_mat MAT1, MAT2, MAT DESTINATION
+	4. sub_mat MAT1, MAT2, MAT DESTINATION
+	5. mul_mat MAT1, MAT2, MAT DESTINATION
+	6. mul_scalar MAT1, scale(number), MAT DESTINATION
+	7. trans_mat MAT, MAT DESTINATION
+	8. stop
+
+
+> The program is ready to take input:
+> read_mat mat_B, 1, 2, 3, 4, 5:
+
+Undefined matrix name
+
+> The program is ready to take input:
+> PRINT_MAT MAT_B:
+
+Missing Argument
+
+> The program is ready to take input:
+> add_mat MAT_A MAT_B MAT_C:
+
+> The program is ready to take input:
+> sub_mat, MAT_A, MAT_B:
+
+Missing Argument
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> :
+
+> The program is ready to take input:
+> read_mat MAT_G, 1.6591, 2.7444457, 3.8921, 4.3456:
+
+Undefined matrix name
+
+> The program is ready to take input:
+> do_it MAT_A, MAT_B, MAT_C:
+
+Undefined command name
+
+> The program is ready to take input:
+> stop now:
+
+Extraneous text after end of command
+
+> The program is ready to take input:
+> stop please:
+
+Extraneous text after end of command
+
+> The program is ready to take input:
+> read_mat MAT_A, 1, 2, 3, mamman22:
+
+Argument is not a real number
+
+> The program is ready to take input:
+> mul_scalar MAT_A, MAT_B, MAT_C:
+
+Argument is not a scalar
+
+> The program is ready to take input:
+> add_mat, MAT_A, MAT_B, MAT_C:
+
+Illegal Comma
+
+> The program is ready to take input:
+> sub_mat MAT_A,, MAT_B, MAT_C:
+
+Multiple consecutive commas
+
+> The program is ready to take input:
+> add_mat MAT_A:
+
+Missing Argument
+
+> The program is ready to take input:
+
+Program ended wrongly

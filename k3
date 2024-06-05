@@ -1,0 +1,15 @@
+read_mat MAT_A 1.234, 0.567, 2.345, 0.678, 1.901, 0.123, 3.456, 0.789, 2.123, 0.456, 1.987, 0.234, 2.789, 0.345, 1.567, 0.901
+read_mat MAT_B 365.233, 2333.129, 56.37, 1.39, 0.864, 4.1279, 56.838
+print_mat MAT_A
+print_mat MAT_B
+sub_mat MAT_B, MAT_A, MAT_C
+print_mat MAT_C
+add_mat MAT_A, MAT_B, MAT_D
+print MAT_D
+mul_mat MAT_C, MAT_D, MAT_E
+print_mat MAT_E
+mul_scalar MAT_E, 2, MAT_E
+print_mat MAT_E
+trans_mat MAT_E, MAT_F
+print_mat MAT_F
+stop

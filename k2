@@ -1,0 +1,22 @@
+read_mat mat_B, 1, 2, 3, 4, 5
+PRINT_MAT MAT_B
+add_mat MAT_A MAT_B MAT_C
+sub_mat, MAT_A, MAT_B
+
+
+
+
+
+
+
+
+
+read_mat MAT_G, 1.6591, 2.7444457, 3.8921, 4.3456
+do_it MAT_A, MAT_B, MAT_C
+stop now
+stop please
+read_mat MAT_A, 1, 2, 3, mamman22
+mul_scalar MAT_A, MAT_B, MAT_C
+add_mat, MAT_A, MAT_B, MAT_C
+sub_mat MAT_A,, MAT_B, MAT_C
+add_mat MAT_A
