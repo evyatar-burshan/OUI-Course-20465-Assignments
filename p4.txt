@@ -1,0 +1,22 @@
+
+Test	appears in lines 1
+a	appears in lines 2
+also	appears in lines 4
+and	appears in lines 4,5,7
+characters	appears in lines 3
+disappeared	appears in lines 9
+down	appears in lines 8
+four	appears in lines 1
+has	appears in lines 2
+hill	appears in lines 6,8,9
+jack	appears in lines 5,7
+jill	appears in lines 5,7
+lot	appears in lines 2
+number	appears in lines 1
+of	appears in lines 2
+the	appears in lines 6,8,9
+then	appears in lines 9
+up	appears in lines 6
+went	appears in lines 6,8
+white	appears in lines 2
+

@@ -1,0 +1,3 @@
+Test run number two
+will create an index
+of all words in this file

@@ -1,0 +1,12 @@
+
+and	appears in lines 1,3
+disappeared	appears in lines 5
+down	appears in lines 4
+hill	appears in lines 2,4,5
+jack	appears in lines 1,3
+jill	appears in lines 1,3
+the	appears in lines 2,4,5
+then	appears in lines 5
+up	appears in lines 2
+went	appears in lines 2,4
+

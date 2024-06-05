@@ -1,0 +1,16 @@
+
+Test	appears in lines 1
+all	appears in lines 3
+an	appears in lines 2
+create	appears in lines 2
+file	appears in lines 3
+in	appears in lines 3
+index	appears in lines 2
+number	appears in lines 1
+of	appears in lines 3
+run	appears in lines 1
+this	appears in lines 3
+two	appears in lines 1
+will	appears in lines 2
+words	appears in lines 3
+

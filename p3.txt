@@ -1,0 +1,12 @@
+
+All	appears in lines 1
+are	appears in lines 1
+in	appears in lines 1
+line	appears in lines 1
+run	appears in lines 1
+same	appears in lines 1
+test	appears in lines 1
+the	appears in lines 1
+this	appears in lines 1
+words	appears in lines 1
+
