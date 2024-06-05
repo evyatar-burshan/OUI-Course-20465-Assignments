@@ -1,0 +1,2 @@
+Please enter 30 different names without white spaces, using ONLY the English alphabet and no longer than 20 characters:
+ERROR: You entered an identical name to a name you already entered (AbaA, abaa)
