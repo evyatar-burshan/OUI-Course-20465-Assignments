@@ -1,0 +1,3 @@
+Enter the degree you want to cosine: 
+The cosine of 13.780000 using my cosine funcstion is: 0.349621
+The cosine of 13.780000 using math.h cosine funcstion is: 0.349621
